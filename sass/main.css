@@ -1,0 +1,94 @@
+* {
+  transition: 0.3s all;
+}
+
+body, html, .content, header, footer, .header-img, .naw-wrapper {
+  padding: 0;
+  margin: 0;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+html body {
+  color: #333;
+  font-family: "segoe ui", helvetica, arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+html body footer, html body header {
+  font-family: Raleway, opensans, helvetica, arial, sans-serif;
+}
+html body ul li {
+  list-style: square;
+}
+
+header {
+  position: relative;
+  border-top: 5px solid #00701a;
+}
+header .header-wrapper {
+  background: #43a047;
+  padding-left: 135px;
+  padding-right: 135px;
+}
+header .header-wrapper a {
+  padding: 15px;
+  display: inline-block;
+}
+header .header-wrapper a.site-name {
+  text-decoration: none;
+  color: #fff;
+}
+header .header-wrapper .urls {
+  display: inline-block;
+  float: right;
+}
+header .header-wrapper .urls a {
+  background: #43a047;
+  color: #ffffff;
+  text-decoration: none;
+}
+header .header-wrapper .urls a:hover {
+  background: #00701a !important;
+}
+header .header-wrapper .urls a.active {
+  border-bottom: 4px solid #76d275;
+  padding-bottom: 11px;
+}
+
+.after-header {
+  width: 100%;
+  height: 25%;
+  overflow: hidden;
+}
+.after-header img {
+  width: 100%;
+}
+
+.content {
+  padding: 0;
+  margin: 0;
+  padding-bottom: 100px;
+  padding-left: 150px;
+  padding-right: 150px;
+  font-size: 14.5px;
+}
+.content h2:first-child {
+  padding-top: 15px;
+  margin: 0;
+}
+
+footer {
+  background: #43a047;
+  margin-top: -74px;
+}
+footer .footer-wrapper {
+  color: #fff;
+  padding: 15px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+/*# sourceMappingURL=main.css.map */
