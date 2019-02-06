@@ -1,0 +1,14 @@
+.content {
+  padding: 0;
+  margin: 0;
+  padding-bottom: 100px;
+  padding-left: 150px;
+  padding-right: 150px;
+  font-size: 14.5px;
+}
+.content h2:first-child {
+  padding-top: 15px;
+  margin: 0;
+}
+
+/*# sourceMappingURL=text.css.map */

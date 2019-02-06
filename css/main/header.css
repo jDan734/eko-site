@@ -1,0 +1,44 @@
+header {
+  position: relative;
+  border-top: 5px solid #00701a;
+}
+header .header-wrapper {
+  background: #43a047;
+  padding-left: 135px;
+  padding-right: 135px;
+}
+header .header-wrapper a {
+  padding: 15px;
+  display: inline-block;
+}
+header .header-wrapper a.site-name {
+  text-decoration: none;
+  color: #fff;
+}
+header .header-wrapper .urls {
+  display: inline-block;
+  float: right;
+}
+header .header-wrapper .urls a {
+  background: #43a047;
+  color: #ffffff;
+  text-decoration: none;
+}
+header .header-wrapper .urls a:hover {
+  background: #00701a !important;
+}
+header .header-wrapper .urls a.active {
+  border-bottom: 4px solid #76d275;
+  padding-bottom: 11px;
+}
+
+.after-header {
+  width: 100%;
+  height: 25%;
+  overflow: hidden;
+}
+.after-header img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=header.css.map */
